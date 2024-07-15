@@ -1,0 +1,95 @@
+/* .home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+} */
+
+.home .App {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.home .App .sidebar-div{
+    width: 250px;
+    height: 100vh;
+}
+.MainPage{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+/* ---------------------------------------------------------------- */
+
+.MainPage-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid yellow; */
+}
+
+.fullheading{
+    width: 60vw;
+    height: 20vh;
+    display: flex;
+    /* border: 1px solid red; */
+    gap: 15px;
+    margin-top: 35px;
+
+}
+
+.fullheading .statistic{
+    width: 70%;
+    height: 90%;
+    /* border: 1px solid black; */
+    padding: 0 15px;
+    background-color: aliceblue;
+    border-radius: 8px;
+}
+.fullheading .statistic h2{
+    position: relative;
+    top: 35%;
+}
+.fullheading .statistic button{
+    position: relative;
+    top: 40%;
+    padding: 5px;
+    border-radius: 7px;
+    background-color: greenyellow;
+}
+
+
+.fullheading .TotalSales{
+    width: 30%;
+    height: 90%;
+    background-color: aliceblue;
+    /* border: 1px solid black; */
+    border-radius: 8px;
+}
+.fullheading .TotalSales .center{
+    width: 80%;
+    height: 80%;
+    margin: auto;
+}
+
+.fullheading .TotalSales .first{
+    position: relative;
+    top: 10%;
+}
+.fullheading .TotalSales .second{
+    position: relative;
+    top: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 4px;
+}
+.fullheading .TotalSales .second h4{
+    font-size: 1.5rem;
+}
+
+
+
